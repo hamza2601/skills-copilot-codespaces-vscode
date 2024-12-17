@@ -1,3 +1,8 @@
-function calculateNumbers(var1, var2){
-    return var1 + var2;
+function skillsMember() {
+  const skills = {
+    frontend: ["HTML", "CSS", "JS", "React"],
+    backend: ["Node", "Express", "MongoDB"],
+    devOps: ["AWS", "Docker"],
+  };
+  return skills;
 }
